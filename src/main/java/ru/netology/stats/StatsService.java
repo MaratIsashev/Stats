@@ -53,7 +53,6 @@ public class StatsService {
             if (sale > average) {
                 aboveAverageCounter++;
             }
-            ;
         }
         return aboveAverageCounter;
     }
@@ -69,7 +68,6 @@ public class StatsService {
             if (sale < average) {
                 belowAverageCounter++;
             }
-            ;
         }
         return belowAverageCounter;
     }
